@@ -1,0 +1,37 @@
+body {
+  background-color: darksalmon !important;
+  text-align: center;
+}
+
+.fill {
+  background-image: url('../Images/pexels-photo-106399.jpeg');
+  position: relative;
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+  cursor: pointer;
+  top: 5px;
+  left: 5px;
+}
+
+.empty {
+  display: inline-block;
+  height: 160px;
+  width: 160px;
+  margin: 10px;
+  border: 3px salmon solid;
+  background-color: white;
+}
+
+.hold {
+  border: solid lightgrey 4px;
+}
+
+.hovered {
+  background-color: #f4f4f4;
+  border-style: dashed;
+}
+
+.invisible {
+  display: none;
+}
